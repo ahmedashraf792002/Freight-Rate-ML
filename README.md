@@ -7,7 +7,7 @@ python -m pip install -r requirements.txt
 python src/train.py --data-dir data --out-dir outputs
 python src/score.py --predictions outputs/validation_predictions.csv \
                 --december-predictions outputs/december_chart_inputs.csv \
-                --output-dir outputs/scorer_results
+                --output-dir outputs/scorer_results 
 ```
 Outputs: `outputs/validation_predictions.csv`, `outputs/december_chart_inputs.csv` (filled), `outputs/cv_results.csv`,
 `outputs/scorer_results/candidate_december.png`.
